@@ -12,12 +12,13 @@
     --text-soft: #c2bab5;
     --border-soft: #3b2f4a;
     --shadow-main: 0 20px 50px rgba(0, 0, 0, 0.7);
+    --header-height: 72px;
 }
 
 * {
     box-sizing: border-box;
 }
-
+html { scroll-padding-top: var(--header-height); }
 body {
     margin: 0;
     font-family: 'Crimson Pro', serif;
